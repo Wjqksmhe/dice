@@ -1,0 +1,39 @@
+body {
+    background-color: #1f1f1f;
+    display: grid;
+    place-items: center;
+}
+
+#user-input {
+    border: 1px solid #29ff8a;
+    width: 80%;
+    text-align: center;
+}
+
+input {
+    background-color: #29ff8a;
+}
+
+button {
+    background-color: #0ff0fc;
+}
+
+#result-div {
+    background-color: #232931;
+    border: 1px solid #29ff8a;
+    height: 200px;
+    width: 80%;
+    text-align: center;
+}
+
+#user-input, #result-div {
+    display: block;
+}
+
+h2{
+    color: #F2f2f2;
+}
+
+input, h2 {
+    display: inline;
+}
